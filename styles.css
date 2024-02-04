@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color:rgb(222, 227, 180);
+}
+h1{
+    color: black;
+    padding-left: 5rem;
+    justify-self: center;
+}
+#countdown-form{
+    font-size: xx-large;
+}
+#countdown-date{
+      font-size: 2rem;
+      margin: 3rem;
+      background-color:rgb(172, 223, 223);
+}
+.box{
+    border-color: rgb(18, 18, 17);
+    font-size: larger;
+    border-style:ridge;
+    border-radius: 5%;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(188, 126, 126);
+    color: rgb(4, 4, 4);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.date{
+    font-size: xx-large;
+}
+
+input[type="datetime-local"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px 10px;
+    text-align: center;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #77e760;
+    color: black;
+}
+
+button:hover {
+    background-color: #16981a;
+    color: white;
+}
+#countdown-display{
+    font-size: xx-large;
+    color: rgb(15, 17, 16);
+    border-radius: 5%;
+    border-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-style: outset;
+    background-color: rgb(183, 236, 236);
+    margin-top: 1rem;
+}
